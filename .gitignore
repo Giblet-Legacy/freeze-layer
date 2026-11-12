@@ -1,2 +1,4 @@
+# .gitignore — P3 Freeze. Function: keeps Python bytecode caches out of git.
 __pycache__/
 *.pyc
+.pytest_cache/

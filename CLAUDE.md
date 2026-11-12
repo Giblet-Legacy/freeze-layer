@@ -20,4 +20,5 @@ Every function MUST have a numbered header (e.g., `# 1. freeze_capsule`).
 
 ## P3 Architecture Specifics
 - Depends on `envelope_v2` (P1 v2.0.0) and `sign` (P2 v1.0.0).
+- Current layer is `freeze_v2.py` (P3 v2.0.0, SPEC_V2.md), which depends on `sign_v2` (P2 v2.0.0). New code imports `freeze_v2`, not `freeze`. `freeze.py` is frozen v1.
 - Implements the rule: inject `document_sha256` into the capsule, then sign.

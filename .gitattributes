@@ -1,3 +1,5 @@
+# .gitattributes — P3 Freeze. Function: forces LF line endings on every
+# platform (S24 Termux and Windows laptop produce identical bytes).
 * text=auto eol=lf
 *.py     text eol=lf
 *.md     text eol=lf

@@ -1,5 +1,7 @@
 # VERSION — P3 Freeze (freeze-layer)
 # Function: the current release version of this layer. Advances only on freeze.
 # 1.0.0 — P3 frozen. Tests pass (6/6).
+# 2.0.0 — freeze_v2.py strict layer frozen (SPEC_V2.md). v1 6/6, v2 11/11.
+#         freeze.py unchanged.
 
-1.0.0
+2.0.0
